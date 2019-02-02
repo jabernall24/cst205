@@ -1,0 +1,84 @@
+Summary:
+The part that I found most difficult was attempting to figure out a way to
+allow user to input all values in a single line.
+
+==================================================================
+task 1 sample tests:
+==============================================
+What task would you like to run(1-5)(Any other number to stop): 1
+Enter color values separated by a space: 205 96 144
+The color is reddish
+What task would you like to run(1-5)(Any other number to stop): 1
+Enter color values separated by a space: 28 134 238
+The color is blueish
+What task would you like to run(1-5)(Any other number to stop): 1
+Enter color values separated by a space: 72 209 204
+The color is greenish
+What task would you like to run(1-5)(Any other number to stop): 1
+Enter color values separated by a space: 237 145 33
+The color is reddish
+What task would you like to run(1-5)(Any other number to stop): 0
+==============================================
+
+==================================================================
+task 2 sample tests:
+==================================================================
+What task would you like to run(1-5)(Any other number to stop): 2
+Enter color values separated by a space: 250 250 70
+The color is a shade of yellow.
+What task would you like to run(1-5)(Any other number to stop): 2
+Enter color values separated by a space: 245 50 245
+The color is a shade of magenta.
+What task would you like to run(1-5)(Any other number to stop): 2
+Enter color values separated by a space: 100 231 231
+The color is a shade of cyan.
+What task would you like to run(1-5)(Any other number to stop): 0
+==============================================
+
+==================================================================
+task 3 sample tests:
+==================================================================
+What task would you like to run(1-5)(Any other number to stop): 3
+Hex value: #9932CC
+(153, 50, 204)
+What task would you like to run(1-5)(Any other number to stop): 3
+Hex value: #7FFF00
+(127, 255, 0)
+What task would you like to run(1-5)(Any other number to stop): 3
+Hex value: #FF86C2
+(255, 134, 194)
+What task would you like to run(1-5)(Any other number to stop): 0
+==============================================
+
+==================================================================
+task 4 sample tests:
+==================================================================
+What task would you like to run(1-5)(Any other number to stop): 4
+Enter color values separated by a space: 250 250 70
+#fafa46
+What task would you like to run(1-5)(Any other number to stop): 4
+Enter color values separated by a space: 245 50 245
+#f532f5
+What task would you like to run(1-5)(Any other number to stop): 4
+Enter color values separated by a space: 100 231 231
+#64e7e7
+What task would you like to run(1-5)(Any other number to stop): 9
+==============================================
+
+==================================================================
+task 5 sample tests:
+==================================================================
+What task would you like to run(1-5)(Any other number to stop): 5
+Enter color values separated by a space: 70 240 150
+The color is greenish
+What task would you like to run(1-5)(Any other number to stop): 5
+Enter color values separated by a space: 167 167 42
+The color is a shade of yellow.
+What task would you like to run(1-5)(Any other number to stop): 5
+Enter color values separated by a space: 223 67 223
+The color is a shade of magenta.
+What task would you like to run(1-5)(Any other number to stop): 5
+Enter color values separated by a space: 70 67 243
+The color is blueish
+What task would you like to run(1-5)(Any other number to stop): 324
+==============================================
