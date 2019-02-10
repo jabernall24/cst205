@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f685fbd-1293-4ad0-b71a-1834fd4d7399" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Labs/lab 5 - Digital Images/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/lab 5 - Digital Images/lab5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/lab 5 - Digital Images/sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/blue_hist.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/green_hist.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/hw1_hist_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_hist_plotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/hw1_task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/hw1_task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/image_matrix.dms" beforeDir="false" afterPath="$PROJECT_DIR$/image_matrix.dms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/red_hist.svg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +15,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/hw1___Histogram$hw1_task2.coverage" NAME="hw1_task2 Coverage Results" MODIFIED="1549697526570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hw1___Histogram$hw1_task1.coverage" NAME="hw1_task1 Coverage Results" MODIFIED="1549697544838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/hw1___Histogram$hw1_task1.coverage" NAME="hw1_task1 Coverage Results" MODIFIED="1549697695301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw1_task2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="435">
               <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="46" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -38,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw1_task1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="121">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -67,6 +63,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,7 +75,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,18 +164,18 @@
       <option name="presentableId" value="Default" />
       <updated>1549696760622</updated>
       <workItem from="1549696763424" duration="155000" />
-      <workItem from="1549697457156" duration="150000" />
+      <workItem from="1549697457156" duration="253000" />
+      <workItem from="1549763000010" duration="164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305000" />
+    <option name="totallyTimeSpent" value="572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="740" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -193,7 +189,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3287037" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.046296295" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -208,7 +204,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hw1_task2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="435">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="46" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -218,8 +214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw1_task1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="121">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
