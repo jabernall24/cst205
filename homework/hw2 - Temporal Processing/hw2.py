@@ -28,12 +28,13 @@ def picture_modification():
         img_data.append(Image.open(img).getdata())
 
     print("Images turned into PIL objects.")
-    # calc median value
-    median_idx = ((img_data.__len__() + 1) // 2) - 1
+
+    # # calc median value
+    median_idx = ((len(img_data)) // 2)
     print(f"Median index will be {median_idx}.")
 
     # Add empty lists for each pixel
-    for i in range(img_data[0].__len__()):
+    for i in range(len(img_data[0])):
         two_d_array.append([])
 
     print("Pixel arrays initialized.")
@@ -55,7 +56,7 @@ def picture_modification():
     print("More than 1.4 million arrays sorted...")
 
     # Build image from medians
-    for i in range(two_d_array.__len__()):
+    for i in range(len(two_d_array)):
         finished_img.append(two_d_array[i][median_idx])
 
     print("Image data built.")
