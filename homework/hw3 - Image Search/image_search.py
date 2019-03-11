@@ -1,13 +1,12 @@
 #! /usr/bin/env python3
 
-"""
-Contributors: Jesus A. Bernal Lopez
-              Michael Avalos-Garcia
-              Paul Whipp
-File: image_search.py
-Due Date: March 11, 2019
-Description:
-"""
+'''
+  Names: Jesus Andres Bernal Lopez, Paul Whipp, Michael Avalos-Garcia
+  Date: 2/9/2019
+  Course: CST 205
+  Description: Creates GUI that allows user to search for pictures and modify
+               the pictures with the available transformations.
+'''
 
 from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QHBoxLayout, QComboBox, QPushButton, \
     QVBoxLayout, QLabel, QDial
@@ -26,16 +25,16 @@ class Window(QWidget):
 
         # layouts
         hbox = QHBoxLayout()
-        sepia_hbox = QHBoxLayout()
-        vbox = QVBoxLayout()
+        self.sepia_hbox = QHBoxLayout()
+        self.vbox = QVBoxLayout()
 
         # window items
         self.line_edit = QLineEdit()
         self.img_manip = QComboBox()
         self.img_manip.addItems(combo_items)
         self.img_manip.currentTextChanged.connect(self.hide_show_manip)
-        search_btn = QPushButton("Search")
-        search_btn.clicked.connect(self.search_clicked)
+        self.search_btn = QPushButton("Search")
+        self.search_btn.clicked.connect(self.search_clicked)
         self.image_label = QLabel(self)
 
         self.r_spin_dial = QDial()
@@ -65,18 +64,18 @@ class Window(QWidget):
         # add items to layouts
         hbox.addWidget(self.line_edit)
         hbox.addWidget(self.img_manip)
-        hbox.addWidget(search_btn)
-        vbox.addLayout(hbox)
-        sepia_hbox.addWidget(self.r_spin_dial)
-        sepia_hbox.addWidget(self.r_sepia_label)
-        sepia_hbox.addWidget(self.g_spin_dial)
-        sepia_hbox.addWidget(self.g_sepia_label)
-        sepia_hbox.addWidget(self.b_spin_dial)
-        sepia_hbox.addWidget(self.b_sepia_label)
-        vbox.addLayout(sepia_hbox)
-        vbox.addWidget(self.image_label)
+        hbox.addWidget(self.search_btn)
+        self.vbox.addLayout(hbox)
+        self.sepia_hbox.addWidget(self.r_spin_dial)
+        self.sepia_hbox.addWidget(self.r_sepia_label)
+        self.sepia_hbox.addWidget(self.g_spin_dial)
+        self.sepia_hbox.addWidget(self.g_sepia_label)
+        self.sepia_hbox.addWidget(self.b_spin_dial)
+        self.sepia_hbox.addWidget(self.b_sepia_label)
+        self.vbox.addLayout(self.sepia_hbox)
+        self.vbox.addWidget(self.image_label)
 
-        self.setLayout(vbox)
+        self.setLayout(self.vbox)
         self.show()
 
     @pyqtSlot()
@@ -104,10 +103,10 @@ class Window(QWidget):
         self.g_sepia_label.setText(f'Green: {round(self.g_spin_dial.value() * 0.1, 1)}')
         self.b_sepia_label.setText(f'Blue: {round(self.b_spin_dial.value() * 0.1, 1)}')
 
+
     @pyqtSlot()
     def search_clicked(self):
-        """When user searches for image, it displays it on the window"""
-        # when user searches for image it sends of the work to other functions then comes back to show the image
+        """when user searches for image it sends the request to other functions then comes back to show the image"""
         width, height = self.manipulate_image(self.search_image(self.line_edit.text()), self.img_manip.currentText())
         pm = QPixmap('show.jpg')
         pixmap = pm.scaled(width, height)
