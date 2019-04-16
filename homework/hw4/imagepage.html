@@ -1,0 +1,26 @@
+<!-- Names: Paul Whipp, Jesus Andres Bernal Lopez, Michael Avalos-Garcia -->
+<!-- Date: 3/31/2019  -->
+<!-- Course Name: CST 205  -->
+<!-- Abstract: This file is an html template for image pages -->
+
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+    Homework 4
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+
+<h1>{{title}}</h1>
+<img src="{{url_for('static', filename=name)}}" width="{{width}}" class="img-responsive img-rounded" alt="Picture of {{title}}">
+
+<p>{{mode}} image in {{format}} format with width {{width}} and height {{height}}.</p>
+<br>
+<a href="/">Back to list of images</a>
+
+</div>
+
+{% endblock %}

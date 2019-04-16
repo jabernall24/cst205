@@ -1,0 +1,30 @@
+<!-- Names: Paul Whipp, Jesus Andres Bernal Lopez, Michael Avalos-Garcia -->
+<!-- Date: 3/31/2019  -->
+<!-- Course Name: CST 205  -->
+<!-- Abstract: This file is an html template for the main page -->
+
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+    Homework 4
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+
+<h1>Pictures</h1>
+
+<p><a href="/image/{{index1}}">{{title1}}</a></p>
+<img src="{{url_for('static', filename=name1)}}" width="200" class="img-responsive img-rounded" alt="Picture of {{title1}}">
+<br><br>
+<p><a href="/image/{{index2}}">{{title2}}</a></p>
+<img src="{{url_for('static', filename=name2)}}" width="200" class="img-responsive img-rounded" alt="Picture of {{title2}}">
+<br><br>
+<p><a href="/image/{{index3}}">{{title3}}</a></p>
+<img src="{{url_for('static', filename=name3)}}" width="200" class="img-responsive img-rounded" alt="Picture of {{title3}}">
+
+</div>
+
+{% endblock %}
